@@ -87,6 +87,7 @@ ul li {
   cursor: pointer;
   border-radius: 4px;
   justify-content: space-between;
+  text-transform: capitalize;
 }
 
 ul li .fa-pen-to-square {
