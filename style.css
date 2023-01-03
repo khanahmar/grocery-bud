@@ -24,7 +24,7 @@ body {
   background-color: rgb(255, 250, 240);
   padding: 20px 10px;
   width: 500px;
-  height: 50vh;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0 4px 10px rgb(176, 176, 176);
 }
@@ -64,6 +64,7 @@ h1 {
   padding: 0 5px;
   transition: 0.3s;
   text-align: center;
+  width: 60px;
 }
 
 .btn:hover {
@@ -85,14 +86,32 @@ ul li {
   align-items: center;
   cursor: pointer;
   border-radius: 4px;
+  justify-content: space-between;
 }
 
 ul li .fa-pen-to-square {
-  margin-left: auto;
   color: rgb(0, 163, 0);
-  margin-right: 10px;
 }
 
 ul li .fa-trash {
   color: rgb(191, 0, 0);
+}
+
+.edit {
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.show {
+  color: white;
+  border-radius: 4px;
+  padding: 0 10px;
+  transition: all 0.3s linear;
+  height: 4vh;
+  width: 50%;
+}
+
+.show-add {
+  background-color: #7fcaff;
+  text-align: center;
 }
